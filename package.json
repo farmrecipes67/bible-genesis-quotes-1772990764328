@@ -1,0 +1,22 @@
+{
+  "name": "genesis-bible-quotes-1772990764328",
+  "version": "1.0.0",
+  "description": "An npm module for Bible quotes from the book of Genesis",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "bible",
+    "genesis",
+    "quotes",
+    "scripture",
+    "verses"
+  ],
+  "author": "farmrecipes@ast.engineer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farmrecipes67/bible-genesis-quotes-1772990764328.git"
+  }
+}
