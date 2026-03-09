@@ -1,42 +1,71 @@
-# genesis-bible-quotes-1772990764328
+<!-- An npm module providing curated Bible quotes from the book of Genesis. Easily integrate Genesis scripture into your Node.js applications. -->
 
-> An npm module for Bible quotes from the book of Genesis
+# bible-genesis-quotes-1772990764328
 
-Created: 2026-03-08T17:26:08.636Z
+An npm module for Bible quotes from the book of Genesis.
+
+[![License](https://img.shields.io/github/license/farmrecipes67/bible-genesis-quotes-1772990764328)](https://github.com/farmrecipes67/bible-genesis-quotes-1772990764328/blob/main/LICENSE)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--03--08-blue)](https://github.com/farmrecipes67/bible-genesis-quotes-1772990764328)
+
+## Overview
+
+**bible-genesis-quotes-1772990764328** is a lightweight Node.js module that provides Bible quotes from the book of Genesis. It can be used in any JavaScript or Node.js project where you need to retrieve or display scripture from Genesis.
+
+## Project Structure
+
+| File            | Description                                      |
+| --------------- | ------------------------------------------------ |
+| `index.js`      | Main module entry point                          |
+| `package.json`  | npm package configuration and metadata           |
+| `test.js`       | Test file for verifying module functionality     |
+| `.gitignore`    | Specifies files and directories ignored by Git   |
+| `LICENSE`       | License for the project                          |
+| `README.md`     | Project documentation (this file)                |
 
 ## Installation
 
+Install via npm:
+
 ```bash
-npm install genesis-bible-quotes-1772990764328
+npm install bible-genesis-quotes-1772990764328
+```
+
+Or clone the repository directly:
+
+```bash
+git clone https://github.com/farmrecipes67/bible-genesis-quotes-1772990764328.git
+cd bible-genesis-quotes-1772990764328
+npm install
 ```
 
 ## Usage
 
 ```javascript
-const genesis = require('genesis-bible-quotes-1772990764328');
+const genesisQuotes = require('bible-genesis-quotes-1772990764328');
 
-const quote = genesis.getRandomQuote();
-console.log(genesis.format(quote));
-
-const all = genesis.getAllQuotes();
-const ch1 = genesis.getByChapter(1);
-const verse = genesis.getByChapterAndVerse(1, 1);
-const results = genesis.search('light');
-console.log(genesis.count() + ' quotes');
+// Use the module to retrieve Genesis quotes
+console.log(genesisQuotes);
 ```
 
-## API
+> **Note:** Refer to `index.js` for the full API and available functions exposed by the module.
 
-| Method | Description |
-|--------|-------------|
-| `getAllQuotes()` | Returns array of all quote objects |
-| `getRandomQuote()` | Returns a random quote object |
-| `getByChapter(chapter)` | Filter quotes by chapter number |
-| `getByChapterAndVerse(chapter, verse)` | Get specific quote |
-| `search(keyword)` | Case-insensitive text search |
-| `count()` | Total number of quotes |
-| `format(quote)` | Format quote as readable string |
+## Testing
+
+Run the included test file to verify functionality:
+
+```bash
+node test.js
+```
 
 ## License
 
-MIT
+This project is licensed under the terms specified in the [LICENSE](https://github.com/farmrecipes67/bible-genesis-quotes-1772990764328/blob/main/LICENSE) file.
+
+## Links
+
+- **Repository:** [https://github.com/farmrecipes67/bible-genesis-quotes-1772990764328](https://github.com/farmrecipes67/bible-genesis-quotes-1772990764328)
+- **Issues:** [https://github.com/farmrecipes67/bible-genesis-quotes-1772990764328/issues](https://github.com/farmrecipes67/bible-genesis-quotes-1772990764328/issues)
+
+---
+
+<sub>This README was auto-generated. For corrections or improvements, please open an issue or submit a pull request.</sub>
